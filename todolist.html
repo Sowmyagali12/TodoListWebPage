@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--============== CSS ==============-->
+    <link rel="stylesheet" href="/styles.css">
+    
+    <!--===============Tittle=============-->
+    <title>TODO LIST</title>
+
+</head>
+<body>     
+        <div class="list-container">
+
+            <div class="todo-enter-container">
+
+                <p  class="heading ">My To-Do List </p>           
+                <p class="quote">"Every accomplishment starts <br/> with the decision to try."</p>  
+                <input id="input-box" type="text" class="todo-input" placeholder="Type here what do you need to do........">
+                <hr>                
+                <button id="addBtn" class="Btn margin" onclick="addTask()">Add</button>               
+            </div>
+
+
+            <div class="todo-display-container">
+                <p class="heading">RECENT NOTES</p>           
+                <ul id="list-container"></ul>               
+                <button id="saveBtn" class="Btn" onclick="saveBtn()">Save</button>                                           
+            </div>
+
+ 
+        </div>  
+ <!--============== JavaScript ==============-->
+ <script src="script.js"></script>
+</body>
+</html> 
